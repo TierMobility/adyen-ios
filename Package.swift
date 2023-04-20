@@ -55,8 +55,8 @@ let package = Package(
         ),
         .package(
             name: "AdyenNetworking",
-            url: "https://github.com/Adyen/adyen-networking-ios",
-            .exact(Version(1, 0, 0))
+            url: "https://github.com/TierMobility/adyen-networking.git",
+            .branch("dynamic-lib")
         ),
         .package(
             name: "AdyenWeChatPayInternal",
